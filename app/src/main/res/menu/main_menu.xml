@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Show Menu"
+        app:showAsAction="always" />
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="ADD" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="VIEW" />
+    </group>
+</menu>
